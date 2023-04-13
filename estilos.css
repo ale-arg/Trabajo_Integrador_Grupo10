@@ -1,0 +1,152 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(202, 202, 252);
+}
+
+
+.barra {
+    color: white;
+    background-color: rgba(78, 102, 236, 0.637);
+}
+
+
+
+main {
+    background-image: url("./fotofondo.jpg");
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.formularios {
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.7);
+    justify-content: center;
+    height: 100%;
+   
+    border-radius: 20px;
+    color: white;
+
+}
+
+#boton {
+    display: flex;
+    width: 100px;
+   margin-left: 100px;
+   margin-top: 10px;
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.empresa {
+    color: rgb(255, 255, 255);
+    font-size:70px;
+}
+
+.taxi {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    color: rgb(152, 168, 5);
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    }
+
+.promo {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(192, 183, 228);
+    font-size: 30px;
+}
+
+#integrantes {
+    background-color: rgba(196, 196, 240, 0.685);
+}
+
+.integ {
+    display: flex;
+    flex-direction: column;
+    color: rgb(9, 9, 124);
+    font-size: 6vw;
+    align-items: center;
+
+}
+.integ p {
+    font-size: 6vw;
+}
+
+#nosotros {
+    background-color: rgba(216, 216, 250, 0.658);
+    border: 2px;
+
+}
+.nosotros {
+    
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: blue;
+}
+.cuadro { border: 1px rgb(255, 0, 76) dotted; padding: 10px 5px; }
+
+.nor {
+    font-size: 3vw;
+}
+
+.no {
+    font-size: 5vw;
+   
+}
+
+.nos {
+    display: flex;
+    font-size: 7vw;
+    display: flex;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+#fot {
+    background-color: blue;
+}
+
+.fot {
+    height: 60rem;
+    background-color:rgb(6, 6, 61)
+}
+.carousel-inner {
+    height: 50rem;
+}
+footer {
+    
+   
+    color: white;
+ 
+    text-align: center;
+}
+.modal-header {
+    background-color:rgb(0, 0, 255);
+    color: white;
+}
+
+.modal-body {
+    background-color:rgba(0, 0, 255, 0.699);
+    color: white;
+}
+.dialog {
+    background-color: rgba(155, 155, 247, 0.384);
+    color: white;
+}
